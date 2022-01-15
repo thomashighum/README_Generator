@@ -1,39 +1,45 @@
- # 1
-  
-![Academic_Free_v3.0](https://img.shields.io/badge/license-Academic_Free_v3.0-blue)
-  
+# Example Title
+
+![MIT](https://img.shields.io/badge/license-MIT-blue)
+
 ## Description
-1
 
+This is a simple project creating a simple README Generator
 
+![A silly gif of an axolotl](./assets/axolotl.gif)
 
 ## Table of Contents
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
 - [Testing](#testing)
 - [Questions](#questions)
-  
+
 ## Installation
-1
 
-
+Download the files, run npm I to install inquirer.
 
 ## Usage
-1
 
-
+You run inquirer with node index.js
 
 ## License
-  
-This application is covered under the Academic_Free_v3.0 license.
+
+This application is covered under the MIT license.
 
 ## Contributing
-1
+
+Not needed for this one.
+
 ## Testing
-1
+
+Not needed for this one.
+
 ## Questions
+
 If you have any questions, please feel free to contact me via:
-- Github: [1](https://github.com/1)
-- Email: [1@1.com](mailto:1@1.com)
+
+- Github: [thomashighum](https://github.com/thomashighum)
+- Email: [tomhighum@rocketmail.com](mailto:tomhighum@rocketmail.com)

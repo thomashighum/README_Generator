@@ -150,7 +150,7 @@ const questions = [
 
 inquirer.prompt(questions).then((response) => {
   fs.writeFile("Example_README.md", writeToFile(response), (err) =>
-    err ? console.error(err) : console.log("README.md Generated Successfully!" + response)
+    err ? console.error(err) : console.log("README.md Generated Successfully!")
   );
 });
 
@@ -163,7 +163,7 @@ function writeToFile(response) {
 ## Description
 ${response.description}
 
-${response.description_confirm ? ![response.description_confirm_description](response.description_media) : ''}
+${response.description_confirm ? `![${response.description_media_description}](${response.description_media})` : ''}
 
 ## Table of Contents
 - [Installation](#installation)
@@ -176,12 +176,12 @@ ${response.description_confirm ? ![response.description_confirm_description](res
 ## Installation
 ${response.install}
 
-${response.install_confirm ? ![response.install_confirm_description](response.install_media) : ''}
+${response.install_confirm ? `![${response.install_media_description}](${response.install_media})` : ''}
 
 ## Usage
 ${response.usage}
 
-${response.usage_confirm ? ![response.usage_confirm_description](response.usage_media) : ''}
+${response.usage_confirm ? `![${response.usage_media_description}](${response.usage_media})` : ''}
 
 ## License
   
